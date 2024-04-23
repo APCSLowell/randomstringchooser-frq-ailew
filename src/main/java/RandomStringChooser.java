@@ -1,8 +1,7 @@
 import java.util.*;
-public class RandomStringChooser
-{
-  /* to be implemented in part (a) */
-  
-  //Heads up! 
-  //You will get a very confusing error message until you have working code in part b as well
-}
+public RandomStringChooser(String[] wordArray) {
+        strings = new ArrayList<>();
+        for (String word : wordArray) {
+            strings.add(word);
+        }
+    }
